@@ -1,0 +1,11 @@
+{
+  "port": 80,
+  "target_url": "http://example.com",
+  "rules": [
+    {
+      "pattern": "/",
+      "target": "$1",
+      "status": 301
+    }
+  ]
+}
